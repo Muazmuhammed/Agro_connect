@@ -2,7 +2,7 @@
 include_once '../../config/cors.php';
 include_once '../../config/database.php';
 include_once '../../middleware/auth.php';
-
+// database connection
 $database = new Database();
 $db = $database->getConnection();
 
