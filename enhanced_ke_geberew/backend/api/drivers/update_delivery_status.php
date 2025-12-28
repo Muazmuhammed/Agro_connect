@@ -1,6 +1,8 @@
+ 
+ 
 <?php
 require_once "../../config/database.php";
-
+//
 $data = json_decode(file_get_contents("php://input"), true);
 $allowed = ['Picked Up', 'In Transit', 'Delivered'];
 
