@@ -1,6 +1,6 @@
 <?php
 require_once "../../config/database.php";
-
+//
 $driver_id = $_GET['driver_id'];
 
 $query = "SELECT * FROM orders WHERE driver_id=?";
